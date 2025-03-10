@@ -74,6 +74,5 @@ The bot is configured through environment variables. The following configuration
 
 ## Thanks
 
-This bot is heavily inspired by the [grafana-matrix-forwarder](https://gitlab.com/hctrdev/grafana-matrix-forwarder).
-
-and made possible by the [maunium.net/go/mautrix](https://maunium.net/go/mautrix/) library.
+Thanks a lot to Hector from [grafana-matrix-forwarder](https://gitlab.com/hctrdev/grafana-matrix-forwarder), which this bot is heavily inspired by.  
+This bot is made possible by the [maunium.net/go/mautrix](https://maunium.net/go/mautrix/) library.
