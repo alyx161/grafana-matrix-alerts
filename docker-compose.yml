@@ -1,0 +1,13 @@
+#file: noinspection SpellCheckingInspection
+services:
+  grafana-matrix-alerts:
+    image: docker.io/alyx161/grafana-matrix-alerts:latest
+    container_name: grafana-matrix-alerts
+    restart: unless-stopped
+    environment:
+      GMA_HOMESERVER: "matrix.org"
+      GMA_USERNAME: "grafana-bot"
+      GMA_PASSWORD: "Trains?!"
+      GMA_RECOVERYKEY: "TRANSRIGHTSAREHUMANRIGHTS!"
+    volumes:
+      - ./data:/data
