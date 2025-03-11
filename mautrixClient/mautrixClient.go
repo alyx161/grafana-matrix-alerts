@@ -82,7 +82,7 @@ func Connect() {
 		logger.Log.Error().Err(err).Msg("Failed to get verification status")
 	}
 
-	if !isVerified {
+	if !isVerified && config.RecoveryKey != "" {
 		err = VerifyWithRecoveryKey(cryptoHelper, context.TODO(), config.RecoveryKey)
 		if err != nil {
 			logger.Log.Error().Err(err).Msg("Failed to verify device signature")
