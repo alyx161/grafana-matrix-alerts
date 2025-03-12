@@ -1,3 +1,12 @@
+# Notice: Repository Moved
+
+This repository has moved to [https://lavaforge.org/alyx/grafana-matrix-alerts](https://lavaforge.org/alyx/grafana-matrix-alerts). Please refer to the new location for any further updates and information.
+
+Thank you for your support!
+
+---
+
+
 # Grafana Matrix Alerts
 
 This project offers an easy method to forward [Grafana](https://grafana.com) alerts to a (encrypted) [Matrix](https://matrix.org) room.
